@@ -1,4 +1,4 @@
-const score = JSON.parse(localStorage.getItem('score'));
+let score = JSON.parse(localStorage.getItem('score')) || {wins: 0, looses: 0, ties: 0};
 
 function playGame(param) {
   let results = '';
