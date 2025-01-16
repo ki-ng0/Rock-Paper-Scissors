@@ -59,7 +59,7 @@ function playGame(param) {
   }
   localStorage.setItem('score', JSON.stringify(score));
   document.querySelector('.moves').innerHTML = results;
-  document.querySelector('.text').innerHTML = `YOU:<img src="images/${param}.png" class="rock-image2"><img src="images/${move}.png" class="rock-image2"> :Computer`;
+  document.querySelector('.text').innerHTML = `YOU:<img src="${param}.png" class="rock-image2"><img src="${move}.png" class="rock-image2"> :Computer`;
   gameResult()
 }
 
