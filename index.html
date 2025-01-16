@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Rock Paper Scissors</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Rock Paper Scissors</h1>
+  <button onclick="
+  playGame('Rock')" class="rock-button">
+    <img src="images/Rock.png" alt="rock image" class="rock-image">
+  </button>
+  <button onclick="
+  playGame('Paper')" class="rock-button">
+    <img src="images/Paper.png" alt="paper image" class="rock-image">
+  </button>
+  <button onclick="
+  playGame('Scissors')" class="rock-button">
+    <img src="images/Scissors.png" alt="scissors image" class="rock-image">
+  </button>
+  <p class="moves">Make a move!!.</p>
+  <p class="text"></p>
+  <p class="result"></p>
+  <button onclick="
+      score.wins = 0;
+      score.looses = 0;
+      score.ties = 0;
+      gameResult()" class="reset">
+    Reset score
+  </button>
+  <div class="footer">
+    <footer>
+      <p>Copyright<sup>©</sup> 2025 | Designed by KING’S SOLUTION</p>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

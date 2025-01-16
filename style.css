@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  color: #FFFFFF;
+  font-family: Arial;
+}
+
+.rock-image {
+  height: 100px;
+  width: 90px;
+  background-color: transparent;
+}
+
+.rock-button {
+  background-color: transparent;
+  border-radius: 60px;
+  border: 3px solid white;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.moves {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 70px;
+  text-align: center;
+  margin-top: 60px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.rock-image2 {
+  height: 80px;
+  background-color: transparent;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.result {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.text {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.reset {
+  background-color: #FFFFFF;
+  font-size: 18px;
+  color: #000000;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-top: 90px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.footer {
+  font-size: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+}
